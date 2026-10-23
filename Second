@@ -1,0 +1,16 @@
+package lesson_7.iterate;
+import java.util.List;
+import java.util.Arrays;
+public class Second {
+public static void main(String[] args) {
+final String[] coffeeArray = {"Латте", "Капучино", "Эспрессо"};
+for (String c : coffeeArray) {
+    System.out.print(c + ", ");
+}
+    System.out.println();
+
+
+final List<String> coffeeList = Arrays.asList(coffeeArray); // тут массив должен стать списком
+System.out.println(coffeeList);
+}
+}
